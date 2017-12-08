@@ -27,6 +27,7 @@ function beepBoopForm() {
     event.preventDefault();
     numbersStore = [];
     $('#beepBoopDisplay').text(countUpTo(parseInt($('#userNumberInputField').val())));
+    $('#userName').text(capitalize($('#userNameInputField').val()));
   });
 }
 $(function(){
