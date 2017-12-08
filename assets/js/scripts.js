@@ -28,9 +28,7 @@ function beepBoopForm() {
   beepBoopForm.addEventListener('submit', function(event) {
     event.preventDefault();
     numbersStore = [];
-    var userInputField = parseInt($('#userInputField').val());
-    var beepBoopDisplay = $('#beepBoopDisplay');
-    beepBoopDisplay.text(countUpTo(userInputField));
+    $('#beepBoopDisplay').text(countUpTo(parseInt($('#userInputField').val())));
   });
 }
 
