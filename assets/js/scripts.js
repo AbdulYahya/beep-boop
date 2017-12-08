@@ -5,7 +5,7 @@ var numbersStore = [];
 // Business Logic
 function countUpTo(number) {
   for (var i = 0; i <= number; i++) {
-    debugger;
+    // debugger;
     if (i == replaceIf(i)) {
       replaceIf(i);
     }
@@ -14,13 +14,11 @@ function countUpTo(number) {
 }
 
 function replaceIf(number) {
-  if (number == '0') {
+  if ((number == '0') || (number.toString().match(/[0]/))) {
     numbersStore.push('Beep!');
-  } else if (number == '1') {
+  } else if ((number == '1') || (number.toString().match(/[1]/))) {
     numbersStore.push('Boop!');
-  } else if (number == '3') {
-    numbersStore.push("I'm sorry, Dave. I'm afraid I can't do that");
-  } else if ((number % 3) == 0) {
+  } else if ((number == 3) || (number % 3 == 0)) {
     numbersStore.push("I'm sorry, Dave. I'm afraid I can't do that");
   } else {
     numbersStore.push(number);
