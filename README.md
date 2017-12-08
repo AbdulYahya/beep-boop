@@ -4,10 +4,7 @@
 
 #### By Abdullah Yahya
 
-## Description
-
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
-
+## Specifications
 
 | Behavior      | Example Input         | Example Output        |
 | ------------- | ------------- | ------------- |
@@ -27,11 +24,6 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 `$ cd beep-boop`
 * Open index.html in your default browser <br />
 `$ open index.html`
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
 
 ### License
 
