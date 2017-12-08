@@ -14,9 +14,9 @@ function countUpTo(number) {
 }
 
 function replaceIf(number) {
-  if ((number == '0') || (number.toString().match(/[0]/))) {
+  if ((number == '0') || ((number % 3 != 0) && (number.toString().match(/[0]/)))) {
     numbersStore.push('Beep!');
-  } else if ((number == '1') || (number.toString().match(/[1]/))) {
+  } else if ((number == '1') || ((number % 3 != 0) && (number.toString().match(/[1]/)))) {
     numbersStore.push('Boop!');
   } else if ((number == 3) || (number % 3 == 0)) {
     numbersStore.push("I'm sorry, Dave. I'm afraid I can't do that");
