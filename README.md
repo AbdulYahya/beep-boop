@@ -15,9 +15,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | Replaces 0 with 'Beep!' | 0 | Beep! |
 | Replaces 1 with 'Boop!' | 1 | Boop! |
 | Replaces 3 with 'I'm sorry, Dave. I'm afraid I can't do that.' | 3 | I'm sorry, Dave. I'm afraid I can't do that. |
+| Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that." | 9  | I'm sorry, Dave. I'm afraid I can't do that.  |
 | Numbers that contain a 0 are replaced with 'Beep!' | 20  | Beep! |
 | Numbers that contain a 1 are replaced with 'Boop!' | 10  | Boop! |
-| Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that." | 9  | I'm sorry, Dave. I'm afraid I can't do that.  |
 
 ## Setup/Installation Requirements
 

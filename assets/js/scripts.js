@@ -20,6 +20,8 @@ function replaceIf(number) {
     numbersStore.push('Boop!');
   } else if (number == '3') {
     numbersStore.push("I'm sorry, Dave. I'm afraid I can't do that");
+  } else if ((number % 3) == 0) {
+    numbersStore.push("I'm sorry, Dave. I'm afraid I can't do that");
   } else {
     numbersStore.push(number);
   }
