@@ -10,7 +10,7 @@ var jshint = require('gulp-jshint');
 var buildProduction = utilities.env.production; // append '--production' to gulp command
 
 gulp.task('concatJS', function() {
-  return gulp.src(['./js/*.js', './js/signup-interface.js'])
+  return gulp.src(['./js/*.js'])
     .pipe(concat('allConcact.js'))
     .pipe(gulp.dest('./tmp'));
 });
